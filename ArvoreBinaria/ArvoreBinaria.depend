@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1553203417 source:c:\users\tarlison sander\desktop\arvorebinaria\arvorebinaria\arvore.cpp
+	<queue>
+	<stack>
+	<stdlib.h>
+	<stdio.h>
+	"Arvore.h"
+	<math.h>
+
+1553203025 c:\users\tarlison sander\desktop\arvorebinaria\arvorebinaria\arvore.h
+
+1553203458 source:c:\users\tarlison sander\desktop\arvorebinaria\arvorebinaria\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Arvore.h"
+
