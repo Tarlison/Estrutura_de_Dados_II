@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.cpp
+Avl.h
+C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+
+C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+

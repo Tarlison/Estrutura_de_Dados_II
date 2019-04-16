@@ -1,0 +1,3 @@
+C:/Users/Tarlison Sander/CLionProjects/Avl/cmake-build-debug/CMakeFiles/Avl.dir
+C:/Users/Tarlison Sander/CLionProjects/Avl/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tarlison Sander/CLionProjects/Avl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
