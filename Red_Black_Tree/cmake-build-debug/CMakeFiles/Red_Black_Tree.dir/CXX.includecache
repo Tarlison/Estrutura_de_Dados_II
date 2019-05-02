@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/Red_Black_Tree/RedBlackTree.cpp
+RedBlackTree.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/Red_Black_Tree/RedBlackTree.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/Red_Black_Tree/RedBlackTree.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+

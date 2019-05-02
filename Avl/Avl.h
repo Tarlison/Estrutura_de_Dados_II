@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+
 typedef struct no{
     int height;
     int info;
@@ -17,6 +18,8 @@ typedef struct arv_bin{
 
 tree_bin *build_tree();
 Node *new_node(int k);
+Node *tree_search(tree_bin *tree, int k);
+Node *search_node(Node *root, int c);
 Node *rotation_for_right(Node *root);
 Node *rotation_for_left(Node *root);
 Node *remove(Node *root, int k);

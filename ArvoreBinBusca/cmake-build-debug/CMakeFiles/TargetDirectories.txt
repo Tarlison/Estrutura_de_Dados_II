@@ -1,0 +1,3 @@
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles/ArvoreBinBusca.dir
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles/edit_cache.dir

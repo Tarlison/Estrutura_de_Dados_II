@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.cpp
-Avl.h
 C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
 stdlib.h
 -
@@ -16,6 +14,8 @@ iostream
 stdio.h
 -
 
+C:/Users/Tarlison Sander/CLionProjects/Avl/main.cpp
+Avl.h
 C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
 stdlib.h
 -

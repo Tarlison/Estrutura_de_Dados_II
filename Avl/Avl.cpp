@@ -4,7 +4,6 @@
 #include <stdio.h>
 using namespace std;
 
-
 tree_bin *build_tree(){
     tree_bin * arv = (tree_bin *) malloc(sizeof(tree_bin));
     arv->root = NULL;
@@ -19,22 +18,20 @@ Node *new_node(int k){
     return p;
 }
 
-int height_node(Node *root){
-    if(root == NULL){
-        return -1;
-    }
-    return root->height;
+Node *tree_search(tree_bin *tree, int k){
+    return search_node(tree->root, k);
 }
 
-int balance_factor(Node *root){
-    if(root == NULL){
-        return 0;
+Node *search_node(Node *root, int c){
+    if (root == NULL || root->info == c){
+        return root;
     }
-    return height_node(root->right) - height_node(root->left);
-}
-
-int max(int x, int y){
-    return x > y ? x : y;
+    if (c < root -> info){
+        return search_node(root->left, c);
+    }
+    else{
+        return search_node(root->right, c);
+    }
 }
 
 Node *rotation_for_right(Node *root){
@@ -169,6 +166,24 @@ Node* remove(Node *root, int k){
         return rotation_for_left(root);
     }
     return root;
+}
+
+int height_node(Node *root){
+    if(root == NULL){
+        return -1;
+    }
+    return root->height;
+}
+
+int balance_factor(Node *root){
+    if(root == NULL){
+        return 0;
+    }
+    return height_node(root->right) - height_node(root->left);
+}
+
+int max(int x, int y){
+    return x > y ? x : y;
 }
 
 void choose_print_order(tree_bin * arv, int ordem){

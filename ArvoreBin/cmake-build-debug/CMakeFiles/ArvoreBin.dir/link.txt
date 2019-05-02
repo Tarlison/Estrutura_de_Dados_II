@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ArvoreBin.dir/main.cpp.o  -o ArvoreBin 

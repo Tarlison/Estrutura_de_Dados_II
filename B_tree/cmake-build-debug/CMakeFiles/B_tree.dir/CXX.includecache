@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/B_tree/Btree.cpp
+Btree.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/B_tree/Btree.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/B_tree/Btree.h
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/B_tree/main.cpp
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+Btree.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/B_tree/Btree.h
+
