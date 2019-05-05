@@ -10,10 +10,13 @@ typedef struct no{
 typedef struct arv_bin{
     Nodo * raiz;
 }Arv_bin;
-void infixa_interativo(Arv_bin* arv);
+
 Arv_bin *arv_cria(Nodo * raiz);
 Arv_bin *espelho(Arv_bin *arv);
 Nodo *espelho_no(Nodo *raiz);
+Nodo *arv_busca(Arv_bin* arv, char c);
+Nodo *arv_busca_no(Nodo *raiz, char c);
+Nodo *arv_cria_no(char c, Nodo *esq, Nodo *dir);
 void largura(Nodo *raiz);
 void arv_free(Arv_bin *arv);
 void arv_imprime_escolhendo_ordem(Arv_bin * arv, int ordem);
@@ -23,6 +26,8 @@ void arv_imprime_pos_ordem(Nodo * raiz);
 void nodo_free(Nodo *nodo);
 void arv_imprime_formatado(Arv_bin *arv);
 void arv_imprime_formatado_no(Nodo *nodo);
+void infixa_com_pilha(Arv_bin* arv);
+void posfixa_com_pilha(Arv_bin *arv);
 int arv_folhas(Nodo *raiz);
 int arv_altura(Arv_bin *arv);
 int arv_altura_no(Nodo *raiz);
@@ -32,9 +37,4 @@ int tamanho_arv(Arv_bin *arv);
 int tamanho_no(Nodo *raiz);
 int arv_estrita(Nodo *raiz);
 int arv_completa(Arv_bin *arv);
-Nodo *arv_busca(Arv_bin* arv, char c);
-Nodo *arv_busca_no(Nodo *raiz, char c);
-Nodo *arv_cria_no(char c, Nodo *esq, Nodo *dir);
-void infixa_com_pilha(Arv_bin* arv);
-void posfixa_com_pilha(Arv_bin *arv);
 #endif // ARVORE_H_

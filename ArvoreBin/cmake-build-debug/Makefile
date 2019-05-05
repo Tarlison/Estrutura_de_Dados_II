@@ -48,10 +48,10 @@ RM = /snap/clion/69/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin"
+CMAKE_SOURCE_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug/CMakeFiles" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/CMakeFiles" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ ArvoreBin/fast:
 	$(MAKE) -f CMakeFiles/ArvoreBin.dir/build.make CMakeFiles/ArvoreBin.dir/build
 .PHONY : ArvoreBin/fast
 
+Arvore.o: Arvore.cpp.o
+
+.PHONY : Arvore.o
+
+# target to build an object file
+Arvore.cpp.o:
+	$(MAKE) -f CMakeFiles/ArvoreBin.dir/build.make CMakeFiles/ArvoreBin.dir/Arvore.cpp.o
+.PHONY : Arvore.cpp.o
+
+Arvore.i: Arvore.cpp.i
+
+.PHONY : Arvore.i
+
+# target to preprocess a source file
+Arvore.cpp.i:
+	$(MAKE) -f CMakeFiles/ArvoreBin.dir/build.make CMakeFiles/ArvoreBin.dir/Arvore.cpp.i
+.PHONY : Arvore.cpp.i
+
+Arvore.s: Arvore.cpp.s
+
+.PHONY : Arvore.s
+
+# target to generate assembly for a file
+Arvore.cpp.s:
+	$(MAKE) -f CMakeFiles/ArvoreBin.dir/build.make CMakeFiles/ArvoreBin.dir/Arvore.cpp.s
+.PHONY : Arvore.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ArvoreBin"
 	@echo "... edit_cache"
+	@echo "... Arvore.o"
+	@echo "... Arvore.i"
+	@echo "... Arvore.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

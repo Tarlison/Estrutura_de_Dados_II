@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ArvoreBinBusca.dir/main.cpp.o  -o ArvoreBinBusca 
+/usr/bin/c++  -g   CMakeFiles/ArvoreBinBusca.dir/main.cpp.o CMakeFiles/ArvoreBinBusca.dir/ArvoreBusca.cpp.o  -o ArvoreBinBusca 

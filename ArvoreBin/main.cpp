@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Arvore.cpp"
+#include "Arvore.h"
 
 int main(){
     int ordem;
@@ -36,7 +36,8 @@ int main(){
 
     scanf(" %c", &c);
 
-    printf("%p endereco do Nodo (se for 0000 eh pq o nodo nao esta na arvore)",arv_busca(arv, c));
+    printf("%p endereco do Nodo (se for 0000 eh pq o nodo nao esta na arvore)\n",arv_busca(arv, c));
+    printf("Valor do nodo achado --> %c", arv_busca(arv, c)->info);
 
     printf("\nDigite um elemento para verificar se pertence a arvore: ");
     scanf(" %c", &c);

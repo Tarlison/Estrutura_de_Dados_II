@@ -11,7 +11,7 @@ typedef struct arv_bin{
     Nodo * raiz;
 }Arv_bin;
 
-void infixa_interativo(Arv_bin* arv);
+
 Arv_bin *arv_cria(Nodo * raiz);
 Arv_bin *espelho(Arv_bin *arv);
 Nodo *espelho_no(Nodo *raiz);

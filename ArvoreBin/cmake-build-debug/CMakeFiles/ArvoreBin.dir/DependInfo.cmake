@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/main.cpp" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug/CMakeFiles/ArvoreBin.dir/main.cpp.o"
+  "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/Arvore.cpp" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/CMakeFiles/ArvoreBin.dir/Arvore.cpp.o"
+  "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/main.cpp" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/CMakeFiles/ArvoreBin.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

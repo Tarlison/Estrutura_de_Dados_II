@@ -32,6 +32,7 @@ int main() {
     aux_for_remove = search_node(tree,tree->root,aux);
     rb_remove(aux_for_remove,tree);
 
+
     cout <<"Apos Remocao do " << aux << endl;
     cout << "Choose the order" <<endl;
     cout << "1 - Infixa" << endl;

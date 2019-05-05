@@ -3,4 +3,4 @@ project(ArvoreBin)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ArvoreBin main.cpp)
+add_executable(ArvoreBin main.cpp Arvore.cpp Arvore.h)

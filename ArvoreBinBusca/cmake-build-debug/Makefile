@@ -48,10 +48,10 @@ RM = /snap/clion/69/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca"
+CMAKE_SOURCE_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/cmake-build-debug/CMakeFiles" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBinBusca/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ ArvoreBinBusca/fast:
 	$(MAKE) -f CMakeFiles/ArvoreBinBusca.dir/build.make CMakeFiles/ArvoreBinBusca.dir/build
 .PHONY : ArvoreBinBusca/fast
 
+ArvoreBusca.o: ArvoreBusca.cpp.o
+
+.PHONY : ArvoreBusca.o
+
+# target to build an object file
+ArvoreBusca.cpp.o:
+	$(MAKE) -f CMakeFiles/ArvoreBinBusca.dir/build.make CMakeFiles/ArvoreBinBusca.dir/ArvoreBusca.cpp.o
+.PHONY : ArvoreBusca.cpp.o
+
+ArvoreBusca.i: ArvoreBusca.cpp.i
+
+.PHONY : ArvoreBusca.i
+
+# target to preprocess a source file
+ArvoreBusca.cpp.i:
+	$(MAKE) -f CMakeFiles/ArvoreBinBusca.dir/build.make CMakeFiles/ArvoreBinBusca.dir/ArvoreBusca.cpp.i
+.PHONY : ArvoreBusca.cpp.i
+
+ArvoreBusca.s: ArvoreBusca.cpp.s
+
+.PHONY : ArvoreBusca.s
+
+# target to generate assembly for a file
+ArvoreBusca.cpp.s:
+	$(MAKE) -f CMakeFiles/ArvoreBinBusca.dir/build.make CMakeFiles/ArvoreBinBusca.dir/ArvoreBusca.cpp.s
+.PHONY : ArvoreBusca.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ArvoreBinBusca"
 	@echo "... edit_cache"
+	@echo "... ArvoreBusca.o"
+	@echo "... ArvoreBusca.i"
+	@echo "... ArvoreBusca.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

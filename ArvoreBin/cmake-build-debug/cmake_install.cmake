@@ -1,4 +1,4 @@
-# Install script for directory: /home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin
+# Install script for directory: /home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/CLionProjects/ArvoreBin/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

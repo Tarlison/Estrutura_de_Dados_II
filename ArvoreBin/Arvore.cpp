@@ -146,15 +146,20 @@ Nodo *arv_busca(Arv_bin* arv, char c){
 
 Nodo *arv_busca_no(Nodo *raiz, char c){
 	if (raiz == NULL){
+		return NULL;
+	}
+	else if (raiz->info == c){
 		return raiz;
 	}
-	if (raiz->info == c){
-		return raiz;
-	}
-	if (arv_busca_no(raiz->esq, c)){
-		return raiz->esq;
-	}
-	return arv_busca_no(raiz->dir, c);
+    else {
+        Nodo *no = arv_busca_no(raiz->esq, c);
+        if (no != NULL){
+            return no;
+        }
+        else
+            return arv_busca_no(raiz->dir, c);
+    }
+
 }
 int arv_pertence(Arv_bin* arv, char c){
 	return arv_pertence_no(arv->raiz, c);

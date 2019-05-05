@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ArvoreBin.dir/main.cpp.o"
+  "CMakeFiles/ArvoreBin.dir/Arvore.cpp.o"
   "ArvoreBin.pdb"
   "ArvoreBin"
 )

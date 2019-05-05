@@ -56,7 +56,7 @@ int main(){
     printf("As arvores sao iguais? %s\n", arv_iguais(arv1->raiz,arv2->raiz) > 0 ? "Nao" : "Sim" );
 
     // ///////////////////////////////////////////// // /////////////////////////////////////////////
-    printf("Quantidade de nos na arv1: %d\n", quant_no(arv1->raiz));
+    printf("Quantidade de nos com apenas 1 filho na arv1: %d\n", quant_no(arv1->raiz));
 
     // ///////////////////////////////////////////// // /////////////////////////////////////////////
     printf("Digite quantos valores vao ser inseridos:\n");

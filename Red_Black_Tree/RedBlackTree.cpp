@@ -261,9 +261,9 @@ void rb_delete_fixup(rb_tree *T, Node *x){
 //Prints
 void choose_print_order(rb_tree * arv, int ordem){
     if(ordem == 1)
-        print_pre_order(arv, arv->root);
-    if(ordem == 2)
         print_in_order(arv, arv->root);
+    if(ordem == 2)
+        print_pre_order(arv, arv->root);
     if(ordem == 3)
         print_post_order(arv, arv->root);
 }

@@ -3,4 +3,4 @@ project(ArvoreBinBusca)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ArvoreBinBusca main.cpp)
+add_executable(ArvoreBinBusca main.cpp ArvoreBusca.cpp ArvoreBusca.h)
