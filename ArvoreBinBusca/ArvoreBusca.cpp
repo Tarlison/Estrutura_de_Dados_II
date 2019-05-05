@@ -231,7 +231,8 @@ int quant_no(Nodo *raiz){
         return 0;
     } else if (raiz->dir == NULL && raiz->esq != NULL){
         return 1;
-    } else if (raiz->dir != NULL && raiz->esq == NULL){     
+    } else if (raiz->dir != NULL && raiz->esq == NULL){
+        return 1;
     } else if(raiz->dir == NULL && raiz->esq == NULL){
         return 0;
     }
