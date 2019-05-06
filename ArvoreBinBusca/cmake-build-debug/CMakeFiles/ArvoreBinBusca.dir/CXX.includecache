@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/ArvoreBusca.cpp
+stdlib.h
+-
+stdio.h
+-
+ArvoreBusca.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/ArvoreBusca.h
+queue
+-
+iostream
+-
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/ArvoreBusca.h
+stdlib.h
+-
+stdio.h
+-
+ArvoreBusca.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBinBusca/ArvoreBusca.h
+queue
+-
+iostream
+-
+

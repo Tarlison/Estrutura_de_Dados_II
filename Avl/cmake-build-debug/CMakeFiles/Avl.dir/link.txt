@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Avl.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Avl.dir/objects.a @CMakeFiles\Avl.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Avl.dir/objects.a -Wl,--no-whole-archive  -o Avl.exe -Wl,--out-implib,libAvl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Avl.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/Avl.dir/main.cpp.o CMakeFiles/Avl.dir/Avl.cpp.o  -o Avl 

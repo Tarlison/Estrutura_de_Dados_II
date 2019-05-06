@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Avl.dir/main.cpp.obj"
-  "CMakeFiles/Avl.dir/Avl.cpp.obj"
+  "CMakeFiles/Avl.dir/main.cpp.o"
+  "CMakeFiles/Avl.dir/Avl.cpp.o"
   "Avl.pdb"
-  "Avl.exe"
-  "Avl.exe.manifest"
-  "libAvl.dll.a"
+  "Avl"
 )
 
 # Per-language clean rules from dependency scanning.

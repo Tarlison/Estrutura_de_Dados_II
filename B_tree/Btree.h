@@ -22,6 +22,7 @@ Node *b_tree_search(Node *x, int k);
 void b_tree_insert(b_tree *T,int k);
 void b_tree_insert_nonfull(Node *x, int k);
 void b_tree_split_child(Node *x,int i);
+void print_tree (Node * root);
 
 
 

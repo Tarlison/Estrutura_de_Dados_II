@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/Avl.cpp
+Avl.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/Avl.h
 stdlib.h
 -
 iostream
@@ -14,9 +16,17 @@ iostream
 stdio.h
 -
 
-C:/Users/Tarlison Sander/CLionProjects/Avl/main.cpp
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/Avl.h
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/main.cpp
 Avl.h
-C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/Avl.h
 stdlib.h
 -
 iostream

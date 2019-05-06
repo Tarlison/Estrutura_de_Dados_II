@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Tarlison Sander/CLionProjects/Avl/Avl.cpp" "C:/Users/Tarlison Sander/CLionProjects/Avl/cmake-build-debug/CMakeFiles/Avl.dir/Avl.cpp.obj"
-  "C:/Users/Tarlison Sander/CLionProjects/Avl/main.cpp" "C:/Users/Tarlison Sander/CLionProjects/Avl/cmake-build-debug/CMakeFiles/Avl.dir/main.cpp.obj"
+  "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/Avl.cpp" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/cmake-build-debug/CMakeFiles/Avl.dir/Avl.cpp.o"
+  "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/main.cpp" "/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/Avl/cmake-build-debug/CMakeFiles/Avl.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

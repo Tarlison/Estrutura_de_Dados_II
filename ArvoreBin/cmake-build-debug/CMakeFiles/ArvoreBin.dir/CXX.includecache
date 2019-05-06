@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/Arvore.h
+
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/main.cpp
+stdio.h
+-
+stdlib.h
+-
+Arvore.h
+/home/tarlison/Documentos/UFRR/4 Semestre/Estrutura de Dados II/Estrutura_de_Dados_II/ArvoreBin/Arvore.h
+

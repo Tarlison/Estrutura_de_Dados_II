@@ -94,6 +94,18 @@ void b_tree_insert(b_tree *T,int k){
 	}
 }
 
+void print_tree (Node * root) {
+    int i;
+    for (i = 0; i < root->number_of_keys; i++) {
+        if ( root->is_leaf == 0 )
+            print_tree ( root->children [i]);
+        cout << "." << root->key [i];
+    }
+    if ( root->is_leaf == 0 ) {
+        print_tree(root ->children[i]);
+    }
+}
+
 
 
 
